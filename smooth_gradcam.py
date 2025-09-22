@@ -6,7 +6,6 @@ Core implementation of Smooth Grad-CAM visualization for Qwen2.5-VL models.
 This module provides attention visualization capabilities for vision-language models.
 
 Author: Chuanyu Qin
-AI Assistant: Claude Code
 Reference: https://github.com/zhangbaijin/From-Redundancy-to-Relevance/blob/master/demo_smooth_grad_threshold.py
 Date: 2024
 License: MIT

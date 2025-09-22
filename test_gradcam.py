@@ -7,7 +7,6 @@ This script demonstrates the usage of Smooth Grad-CAM for Qwen2.5-VL models.
 It provides various visualization modes for analyzing model attention patterns.
 
 Author: Chuanyu Qin
-AI Assistant: Claude Code
 Reference: https://github.com/zhangbaijin/From-Redundancy-to-Relevance/blob/master/demo_smooth_grad_threshold.py
 Date: 2024
 License: MIT

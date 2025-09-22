@@ -7,7 +7,6 @@ This script tests Grad-CAM visualization for Qwen2.5-VL models,
 providing attention pattern analysis for vision-language tasks.
 
 Author: Chuanyu Qin
-AI Assistant: Claude Code
 Reference: https://github.com/zhangbaijin/From-Redundancy-to-Relevance/blob/master/demo_smooth_grad_threshold.py
 Date: 2024
 License: MIT

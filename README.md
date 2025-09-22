@@ -1,5 +1,27 @@
 # Smooth Grad-CAM for Qwen2.5-VL
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo.jpeg" width="300px" alt="Original Image"/>
+      <br/>
+      <b>Original Image</b>
+    </td>
+    <td align="center">
+      <img src="cam_results/grid/layer_0_heatmap.png" width="300px" alt="Grad-CAM Heatmap"/>
+      <br/>
+      <b>Grad-CAM Heatmap</b>
+    </td>
+    <td align="center">
+      <img src="cam_results/grid/layer_0_superimposed.png" width="300px" alt="Grad-CAM Superimposed Result"/>
+      <br/>
+      <b>Grad-CAM Superimposed Result</b>
+    </td>
+  </tr>
+</table>
+
+
+
 A visual attention visualization tool for Vision-Language models based on SmoothGrad and Grad-CAM, specifically optimized for Qwen2.5-VL models.
 
 > **Note**: This implementation is based on the work from [From-Redundancy-to-Relevance](https://github.com/zhangbaijin/From-Redundancy-to-Relevance/tree/master), adapted for Qwen2.5-VL models.
@@ -352,7 +374,6 @@ Contributions, issue reports, and suggestions are welcome! Please participate th
 ## 👥 Credits
 
 - **Author**: Chuanyu Qin
-- **AI Assistant**: Claude Code
 - **Original Reference**: [From-Redundancy-to-Relevance](https://github.com/zhangbaijin/From-Redundancy-to-Relevance)
 
 ## 📧 Contact

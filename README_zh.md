@@ -1,5 +1,26 @@
 # Smooth Grad-CAM for Qwen2.5-VL
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo.jpeg" width="300px" alt="原始图片"/>
+      <br/>
+      <b>原始图片</b>
+    </td>
+    <td align="center">
+      <img src="cam_results/grid/layer_0_heatmap.png" width="300px" alt="Grad-CAM 热力图"/>
+      <br/>
+      <b>Grad-CAM 热力图</b>
+    </td>
+    <td align="center">
+      <img src="cam_results/grid/layer_0_superimposed.png" width="300px" alt="Grad-CAM可视化结果"/>
+      <br/>
+      <b>Grad-CAM 叠加结果</b>
+    </td>
+  </tr>
+</table>
+
+---
 基于 SmoothGrad 和 Grad-CAM 的视觉-语言模型注意力可视化工具，专门针对 Qwen2.5-VL 模型优化。
 
 > **说明**：本实现基于 [From-Redundancy-to-Relevance](https://github.com/zhangbaijin/From-Redundancy-to-Relevance/tree/master) 的工作，针对 Qwen2.5-VL 模型进行了适配。
@@ -363,7 +384,6 @@ A: 代码会自动寻找最接近的因子对来重塑网格。例如，3577 个
 ## 👥 致谢名单
 
 - **作者**: Chuanyu Qin
-- **AI 助手**: Claude Code
 - **原始参考**: [From-Redundancy-to-Relevance](https://github.com/zhangbaijin/From-Redundancy-to-Relevance)
 
 ## 📧 联系方式
